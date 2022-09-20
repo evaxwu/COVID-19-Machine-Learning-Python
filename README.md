@@ -16,4 +16,6 @@ The LASSO model turned out to be the model that most accurately predicts COVID-1
 
 * [covid_vax_dist.ipynb](covid_vax_dist.ipynb) contains the code used to clean the data and to develop and evaluate the model
 
+* [covid_vax_dist.html](covid_vax_dist.html): html version of the analyses
+
 * [covid_vax_dist.pdf](covid_vax_dist.pdf): pdf version of the analyses
