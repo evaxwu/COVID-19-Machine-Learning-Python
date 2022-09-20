@@ -4,9 +4,9 @@ This project aims to propose a recommendation of the best model to predict count
 
 To achieve this goal, we first gathered data from 1) New York Times' daily data on COVID-19 cases and deaths at the county level, 2) Opportunity Insights' county characteristics including baseline health measures, 3) PM COVID's annual, county-level data on air pollution (PM2.5) and weather (average winter/summer temperature and relative humidity), and baseline mortality (averaged across annual averages from 2000-2016). We also cleaned data and created dummy variables for each state.
 
-Then, we developed OLS, Ridge, and LASSO models to predict COVID-19 deaths per capita using the above socio-economic, health, and weather/pollution data. We selected the best model with the optimal parameter based on 10-fold cross-validation results. 
+Then, we developed OLS, Ridge, and LASSO regression models to predict COVID-19 deaths per capita using the above socio-economic, health, and weather/pollution data. We selected the best model with the optimal parameter based on 10-fold cross-validation results. 
 
-The LASSO model turned out to be the model that most accurately predicts COVID-19 deaths. Predictions based on this model could help shape public health authorities' recommendations about how to best deploy limited vaccines.
+The LASSO regression model turned out to be the model that most accurately predicts COVID-19 deaths. Predictions based on this model could help shape public health authorities' recommendations about how to best deploy limited vaccines.
 
 ## Repo Organization
 
